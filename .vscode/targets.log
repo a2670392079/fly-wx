@@ -1,0 +1,810 @@
+make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+mingw32-make game
+ 
+# GNU Make 4.2.1
+# Built for i686-w64-mingw32
+# Copyright (C) 1988-2016 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Fri Mar 18 16:08:05 2022
+
+# Variables
+
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+POWERSHELL_DISTRIBUTION_CHANNEL = MSI:Windows 10 Pro
+# automatic
+?F = $(notdir $?)
+# automatic
+<D = $(patsubst %/,%,$(patsubst %\,%,$(dir $<)))
+# default
+.SHELLFLAGS := -c
+# makefile (from 'Makefile', line 358)
+SRC = $(call rwildcard, *.c, *.h)
+# environment
+AGSDATASTORE = E:\Program Files (x86)\ad\DataStore\
+# makefile
+MAKEFLAGS = pqrRw
+# environment
+VSCODE_LOG_NATIVE = false
+# makefile (from 'Makefile', line 64)
+USE_WAYLAND_DISPLAY = FALSE
+# automatic
+?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
+# makefile (from 'Makefile', line 32)
+COMPILER_PATH = C:/raylib/w64devkit/bin
+# makefile (from 'Makefile', line 28)
+RAYLIB_VERSION = 4.0.0
+# automatic
+@D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
+# environment
+HOMEDRIVE = C:
+# automatic
+@F = $(notdir $@)
+# makefile (from 'Makefile', line 299)
+LDLIBS = -lraylib -lopengl32 -lgdi32 -lwinmm
+# automatic
+^D = $(patsubst %/,%,$(patsubst %\,%,$(dir $^)))
+# makefile
+CURDIR := d:/interview/book/game
+# default
+SHELL := E:/Program Files (x86)/cygwin/bin/sh.exe
+# environment
+WINDIR = C:\WINDOWS
+# environment
+VSCODE_NLS_CONFIG = {"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"2d459c3c1e4312b6770e21efe80cc342.zh-cn","_translationsConfigFile":"C:\\Users\\admin\\AppData\\Roaming\\Code\\clp\\2d459c3c1e4312b6770e21efe80cc342.zh-cn\\tcf.json","_cacheRoot":"C:\\Users\\admin\\AppData\\Roaming\\Code\\clp\\2d459c3c1e4312b6770e21efe80cc342.zh-cn","_resolvedLanguagePackCoreLocation":"C:\\Users\\admin\\AppData\\Roaming\\Code\\clp\\2d459c3c1e4312b6770e21efe80cc342.zh-cn\\c722ca6c7eed3d7987c0d5c3df5c45f6b15e77d1","_corruptedFile":"C:\\Users\\admin\\AppData\\Roaming\\Code\\clp\\2d459c3c1e4312b6770e21efe80cc342.zh-cn\\corrupted.info","_languagePackSupport":true}
+# makefile (from 'Makefile', line 211)
+CFLAGS = -Wall -std=c99 -D_DEFAULT_SOURCE -Wno-missing-braces -s -O1 $(RAYLIB_PATH)/src/raylib.rc.data -Wl,--subsystem,windows
+# environment
+ONEDRIVE = C:\Users\admin\OneDrive
+# environment
+GDAL_DATA = C:\Program Files\PostgreSQL\12\gdal-data
+# environment
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST :=  Makefile
+# environment
+TMP = C:\Users\admin\AppData\Local\Temp
+# makefile (from 'Makefile', line 355)
+OBJ_DIR = obj
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# makefile (from 'Makefile', line 56)
+BUILD_MODE = RELEASE
+# environment
+PROGRAMW6432 = C:\Program Files
+# makefile (from 'Makefile', line 360)
+OBJS = main.c
+# environment
+PROGRAMDATA = C:\ProgramData
+# environment
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-5384ee19-fd7c-4d48-beb2-7a65574fa0ed-sock
+# environment
+VSCODE_CWD = C:\Users\admin\AppData\Local\Programs\Microsoft VS Code
+# default
+MAKE_HOST := i686-w64-mingw32
+# makefile (from 'Makefile', line 72)
+PATH := C:/raylib/w64devkit/bin:C;E:\Program Files (x86)\cygwin\raylib\w64devkit\bin;C:\Program Files\nodejs;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\dotnet;C:\Program Files\PowerShell\7-preview\preview;C:\Program Files\Git\cmd;C:\Program Files (x86)\Turbo\Cmd;E:\vs\Common7\IDE;C:\Program Files\Java\jdk1.8.0_151\bin;C:\Program Files\dotnet;E:\Program Files (x86)\cygwin\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files (x86)\NetSarang\Xshell 6;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit;C:\Users\admin\AppData\Local\Programs\Fiddler;C:\Users\admin\.dotnet\tools;C:\Program Files\Java\jdk1.8.0_151\jre\bin;E:\Emscripten\emsdk;E:\Emscripten\emsdk\node\14.15.5_64bit\bin;E:\Emscripten\emsdk\upstream\emscripten;C:\Program Files (x86)\Yarn\bin;E:\Program Files (x86)\mongodb-win32-x86_64-windows-4.4.5\bin;C:\Users\admin\.cargo\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Users\admin\AppData\Local\Yarn\bin;D:\Program Files\glslang\bin;C:\Program Files (x86)\NetSarang\Xshell 7;C:\Program Files (x86)\NetSarang\Xftp 7;C:\raylib\mingw\bin;C:\Program Files\nodejs;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH; 
+C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\dotnet;C:\Program Files\PowerShell\7-preview\preview;C:\Program Files\Git\cmd;C:\Program Files (x86)\Turbo\Cmd;E:\vs\Common7\IDE;C:\Program Files\Java\jdk1.8.0_151\bin;C:\Program Files\dotnet;E:\Program Files (x86)\cygwin\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files (x86)\NetSarang\Xshell 6;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit;C:\Users\admin\AppData\Local\Programs\Fiddler;C:\Users\admin\.dotnet\tools;C:\Program Files\Java\jdk1.8.0_151\jre\bin;E:\Emscripten\emsdk;E:\Emscripten\emsdk\node\14.15.5_64bit\bin;E:\Emscripten\emsdk\upstream\emscripten;C:\Program Files (x86)\Yarn\bin;E:\Program Files (x86)\mongodb-win32-x86_64-windows-4.4.5\bin;C:\Users\admin\.cargo\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Users\admin\AppData\Local\Yarn\bin;D:\Program Files\glslang\bin;C:\Program Files (x86)\NetSarang\Xshell 7;C:\Program Files (x86)\NetSarang\Xftp 7;C:\Program Files (x86)\CMake\bin;C:\Program Files (;C:\Users\admin\AppData\Local\Programs\Microsoft VS Code\bin
+# environment
+SSLKEYLOGFILE = C:\ssl_key\sslog.log
+# environment
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+# environment
+ZES_ENABLE_SYSMAN = 1
+# makefile (from 'Makefile', line 29)
+RAYLIB_PATH = ..\..
+# environment
+PROCESSOR_ARCHITECTURE = x86
+# environment
+USERPROFILE = C:\Users\admin
+# environment
+ALLUSERSPROFILE = C:\ProgramData
+# environment
+EMSDK_NODE = E:\Emscripten\emsdk\node\14.15.5_64bit\bin\node.exe
+# environment
+AGSDESKTOPJAVA = E:\Program Files (x86)\desktop\Desktop10.8\
+# environment
+VSCODE_LOG_STACK = false
+# environment
+NUMBER_OF_PROCESSORS = 12
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# makefile (from 'Makefile', line 253)
+INCLUDE_PATHS = -I. -I$(RAYLIB_PATH)/src -I$(RAYLIB_PATH)/src/external
+# makefile (from 'Makefile', line 275)
+LDFLAGS = -L. -L$(RAYLIB_RELEASE_PATH) -L$(RAYLIB_PATH)/src
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync
+# makefile (from 'Makefile', line 60)
+USE_EXTERNAL_GLFW = FALSE
+# automatic
+%F = $(notdir $%)
+# environment
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_12368_OBHSESMUSYECWNHG
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+POSTGIS_GDAL_ENABLED_DRIVERS = GTiff PNG JPEG GIF XYZ DTED USGSDEM AAIGrid
+# environment
+COMPUTERNAME = PORTAL
+# environment
+PROGRAMFILES = C:\Program Files (x86)
+# default
+.LOADED := 
+# environment
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+EMSDK_PYTHON = E:\Emscripten\emsdk\python\3.9.2-1_64bit\python.exe
+# environment
+USERNAME = admin
+# environment
+PUBLIC = C:\Users\Public
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = E:\Program Files (x86)\cygwin\home\admin
+# environment
+VSCODE_CODE_CACHE_PATH = C:\Users\admin\AppData\Roaming\Code\CachedData\c722ca6c7eed3d7987c0d5c3df5c45f6b15e77d1
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# environment
+COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
+# environment
+LOGONSERVER = \\PORTAL
+# makefile (from 'Makefile', line 368)
+MAKEFILE_PARAMS = $(PROJECT_NAME)
+# environment
+ONEDRIVECONSUMER = C:\Users\admin\OneDrive
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# environment
+USERDOMAIN = PORTAL
+# environment
+MAKELEVEL := 1
+# environment
+POSTGIS_ENABLE_OUTDB_RASTERS = 1
+# default
+MAKECMDGOALS := game
+# makefile (from 'Makefile', line 149)
+CC = gcc
+# environment
+JAVA_HOME = E:\Emscripten\emsdk\java\8.152_64bit
+# makefile (from 'Makefile', line 50)
+RAYLIB_H_INSTALL_PATH = $(DESTDIR)/include
+# default
+MAKE_VERSION := 4.2.1
+# makefile
+.DEFAULT_GOAL := all
+# environment
+CLASSPATH = E:\Emscripten\emsdk\java\8.152_64bit\bin;E:\Emscripten\emsdk\java\8.152_64bit\lib\dt.jar;E:\Emscripten\emsdk\java\8.152_64bit\lib\tools.jar;C:\Program Files\Java\jdk1.8.0_151\bin;C:\Program Files\Java\jdk1.8.0_151\lib\dt.jar;C:\Program Files\Java\jdk1.8.0_151\lib\tools.jar
+# makefile (from 'Makefile', line 176)
+MAKE = mingw32-make
+# makefile (from 'Makefile', line 47)
+DESTDIR = /usr/local
+# environment
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# automatic
+%D = $(patsubst %/,%,$(patsubst %\,%,$(dir $%)))
+# environment
+LOCALAPPDATA = C:\Users\admin\AppData\Local
+# environment
+PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+# makefile (from 'Makefile', line 351)
+rwildcard = $(foreach d,$(wildcard $1*),$(call rwildcard,$d/,$2) $(filter $(subst *,%,$2),$d))
+# default
+MAKE_COMMAND := C:/raylib/mingw/bin/mingw32-make
+# environment
+PROCESSOR_ARCHITEW6432 = AMD64
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# environment
+VS2019 = E:\vs\Common7\IDE\devenv.exe
+# environment
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 158 Stepping 13, GenuineIntel
+# environment
+OS = Windows_NT
+# environment
+VSCODE_IPC_HOOK = \\.\pipe\40c024692924a7e0e09c00bf44e8c2ef-1.65.2-main-sock
+# environment
+HOMEPATH = \Users\admin
+# environment
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# environment
+PROMPT = $P$G
+# environment
+MFLAGS = -pqrRw
+# automatic
+*D = $(patsubst %/,%,$(patsubst %\,%,$(dir $*)))
+# environment
+SYSTEMROOT = C:\WINDOWS
+# automatic
++D = $(patsubst %/,%,$(patsubst %\,%,$(dir $+)))
+# automatic
++F = $(notdir $+)
+# makefile (from 'Makefile', line 145)
+EXAMPLE_RUNTIME_PATH = $(RAYLIB_RELEASE_PATH)
+# environment
+APPDATA = C:\Users\admin\AppData\Roaming
+# environment
+TEMP = C:\Users\admin\AppData\Local\Temp
+# environment
+COMSPEC = C:\WINDOWS\system32\cmd.exe
+# makefile (from 'Makefile', line 36)
+PLATFORM = PLATFORM_DESKTOP
+# default
+MAKEFILES := 
+# environment
+EM_CONFIG = E:\Emscripten\emsdk\.emscripten
+# makefile (from 'Makefile', line 354)
+SRC_DIR = src
+# automatic
+<F = $(notdir $<)
+# makefile (from 'Makefile', line 131)
+RAYLIB_RELEASE_PATH = $(RAYLIB_PATH)/src
+# makefile (from 'Makefile', line 27)
+PROJECT_NAME = game
+# makefile (from 'Makefile', line 48)
+RAYLIB_INSTALL_PATH = $(DESTDIR)/lib
+# environment
+LC_ALL = C
+# environment
+AGSNOTEBOOK = D:\Program Files (x86)\ns\NotebookServer\
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# environment
+SYSTEMDRIVE = C:
+# makefile (from 'Makefile', line 71)
+PLATFORM_OS = WINDOWS
+# environment
+SESSIONNAME = Console
+# environment
+PROCESSOR_REVISION = 9e0d
+# makefile (from 'Makefile', line 53)
+RAYLIB_LIBTYPE = STATIC
+# environment
+VS140COMNTOOLS = C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\Tools\
+# default
+.RECIPEPREFIX := 
+# environment
+LANG = C
+# environment
+PROCESSOR_LEVEL = 6
+# environment
+TERM = xterm-256color
+# environment
+EMSDK = E:/Emscripten/emsdk
+# environment
+VSCODE_PID = 12368
+# environment
+USERDOMAIN_ROAMINGPROFILE = PORTAL
+# variable set hash-table stats:
+# Load=137/1024=13%, Rehash=0, Collisions=43/250=17%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (key d:/interview/book/game, mtime 1647590764): 11 files, no impossibilities.
+# src (key d:/interview/book/game/src, mtime 1647589478): No files, no impossibilities so far.
+
+# 11 files, no impossibilities in 2 directories.
+
+# Implicit Rules
+
+obj/%.o: src/%.c
+#  recipe to execute (from 'Makefile', line 384):
+	$(CC) -c $< -o $@ $(CFLAGS) $(INCLUDE_PATHS) -D$(PLATFORM)
+
+# 1 implicit rules, 0 (0.0%) terminal.
+
+# Files
+
+all:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 374):
+	$(MAKE) $(MAKEFILE_PARAMS)
+
+.PHONY: all clean
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+main.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-03-18 16:08:05
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2021-11-02 18:37:26
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+clean:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 390):
+		del *.o *.exe /s
+	@echo Cleaning done
+
+game: main.c
+#  Command line target.
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := game
+# automatic
+# % := 
+# automatic
+# * := 
+# automatic
+# + := main.c
+# automatic
+# | := 
+# automatic
+# < := main.c
+# automatic
+# ^ := main.c
+# automatic
+# ? := main.c
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=18/26=69%
+#  recipe to execute (from 'Makefile', line 378):
+	$(CC) -o $(PROJECT_NAME)$(EXT) $(OBJS) $(CFLAGS) $(INCLUDE_PATHS) $(LDFLAGS) $(LDLIBS) -D$(PLATFORM)
+
+# files hash-table stats:
+# Load=8/1024=1%, Rehash=0, Collisions=0/25=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 19 / storage = 155 B / avg = 8 B
+# current buf: size = 8174 B / used = 155 B / count = 19 / avg = 8 B
+
+# strcache performance: lookups = 32 / hit rate = 40%
+# hash-table stats:
+# Load=19/8192=0%, Rehash=0, Collisions=1/32=3%
+# Finished Make data base on Fri Mar 18 16:08:05 2022
+
+ 
+# GNU Make 4.3
+# Built for x86_64-pc-cygwin
+# Copyright (C) 1988-2020 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+ 
+
+# Make data base, printed on Fri Mar 18 16:08:05 2022
+
+# Variables
+
+# environment
+SYSTEMDRIVE = C:
+# environment
+JAVA_HOME = E:\Emscripten\emsdk\java\8.152_64bit
+# environment
+LC_ALL = C
+# makefile (from 'Makefile', line 358)
+SRC = $(call rwildcard, *.c, *.h)
+# makefile (from 'Makefile', line 27)
+PROJECT_NAME = game
+# environment
+USERPROFILE = C:\Users\admin
+# environment
+EMSDK_PYTHON = E:\Emscripten\emsdk\python\3.9.2-1_64bit\python.exe
+# environment
+LOCALAPPDATA = C:\Users\admin\AppData\Local
+# environment
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-5384ee19-fd7c-4d48-beb2-7a65574fa0ed-sock
+# makefile (from 'Makefile', line 354)
+SRC_DIR = src
+# makefile (from 'Makefile', line 71)
+PLATFORM_OS = WINDOWS
+# environment
+VSCODE_CWD = C:\Users\admin\AppData\Local\Programs\Microsoft VS Code
+# environment
+SYSTEMROOT = C:\WINDOWS
+# makefile (from 'Makefile', line 48)
+RAYLIB_INSTALL_PATH = $(DESTDIR)/lib
+# environment
+PROCESSOR_LEVEL = 6
+# environment
+PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+# default
+MAKE_COMMAND := make
+# makefile (from 'Makefile', line 28)
+RAYLIB_VERSION = 4.0.0
+# makefile (from 'Makefile', line 50)
+RAYLIB_H_INSTALL_PATH = $(DESTDIR)/include
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# makefile (from 'Makefile', line 355)
+OBJ_DIR = obj
+# environment
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_12368_OBHSESMUSYECWNHG
+# environment
+AGSNOTEBOOK = D:\Program Files (x86)\ns\NotebookServer\
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# default
+.VARIABLES := 
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+VSCODE_LOG_STACK = false
+# automatic
+%F = $(notdir $%)
+# environment
+VSCODE_CODE_CACHE_PATH = C:\Users\admin\AppData\Roaming\Code\CachedData\c722ca6c7eed3d7987c0d5c3df5c45f6b15e77d1
+# environment
+LANG = C
+# default
+.LOADED := 
+# environment
+TMP = /cygdrive/c/Users/admin/AppData/Local/Temp
+# default
+.INCLUDE_DIRS = /usr/include /usr/include
+# makefile
+MAKEFLAGS = pqrR
+# environment
+ONEDRIVE = C:\Users\admin\OneDrive
+# environment
+POWERSHELL_DISTRIBUTION_CHANNEL = MSI:Windows 10 Pro
+# makefile
+CURDIR := /cygdrive/d/interview/book/game
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+PROGRAMFILES = C:\Program Files
+# environment
+MFLAGS = -pqrR
+# default
+.SHELLFLAGS := -c
+# environment
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+# makefile (from 'Makefile', line 29)
+RAYLIB_PATH = ..\..
+# environment
+POSTGIS_ENABLE_OUTDB_RASTERS = 1
+# makefile (from 'Makefile', line 60)
+USE_EXTERNAL_GLFW = FALSE
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST := Makefile
+# automatic
+@F = $(notdir $@)
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+VSCODE_PID = 12368
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# makefile (from 'Makefile', line 47)
+DESTDIR = /usr/local
+# makefile (from 'Makefile', line 32)
+COMPILER_PATH = C:/raylib/w64devkit/bin
+# automatic
+*F = $(notdir $*)
+# environment
+EM_CONFIG = E:\Emscripten\emsdk\.emscripten
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# makefile (from 'Makefile', line 131)
+RAYLIB_RELEASE_PATH = $(RAYLIB_PATH)/src
+# makefile (from 'Makefile', line 36)
+PLATFORM = PLATFORM_DESKTOP
+# environment
+VSCODE_NLS_CONFIG = {"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"2d459c3c1e4312b6770e21efe80cc342.zh-cn","_translationsConfigFile":"C:\\Users\\admin\\AppData\\Roaming\\Code\\clp\\2d459c3c1e4312b6770e21efe80cc342.zh-cn\\tcf.json","_cacheRoot":"C:\\Users\\admin\\AppData\\Roaming\\Code\\clp\\2d459c3c1e4312b6770e21efe80cc342.zh-cn","_resolvedLanguagePackCoreLocation":"C:\\Users\\admin\\AppData\\Roaming\\Code\\clp\\2d459c3c1e4312b6770e21efe80cc342.zh-cn\\c722ca6c7eed3d7987c0d5c3df5c45f6b15e77d1","_corruptedFile":"C:\\Users\\admin\\AppData\\Roaming\\Code\\clp\\2d459c3c1e4312b6770e21efe80cc342.zh-cn\\corrupted.info","_languagePackSupport":true}
+# environment
+ONEDRIVECONSUMER = C:\Users\admin\OneDrive
+# default
+MAKE_HOST := x86_64-pc-cygwin
+# makefile (from 'Makefile', line 360)
+OBJS = main.c
+# environment
+PROGRAMDATA = C:\ProgramData
+# default
+SHELL := /bin/sh
+# environment
+CLASSPATH = E:\Emscripten\emsdk\java\8.152_64bit\bin;E:\Emscripten\emsdk\java\8.152_64bit\lib\dt.jar;E:\Emscripten\emsdk\java\8.152_64bit\lib\tools.jar;C:\Program Files\Java\jdk1.8.0_151\bin;C:\Program Files\Java\jdk1.8.0_151\lib\dt.jar;C:\Program Files\Java\jdk1.8.0_151\lib\tools.jar
+# environment
+HOMEPATH = \Users\admin
+# default
+MAKECMDGOALS := all
+# environment
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+# environment
+COMSPEC = C:\WINDOWS\system32\cmd.exe
+# environment
+WINDIR = C:\WINDOWS
+# environment
+MAKELEVEL := 0
+# environment
+SSLKEYLOGFILE = C:\ssl_key\sslog.log
+# makefile (from 'Makefile', line 176)
+MAKE = mingw32-make
+# makefile (from 'Makefile', line 72)
+PATH := C:/raylib/w64devkit/bin:/cygdrive/c/Program Files/nodejs:/cygdrive/c/ProgramData/Oracle/Java/javapath:/cygdrive/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/cygdrive/c/Windows/system32:/cygdrive/c/Windows:/cygdrive/c/Windows/System32/Wbem:/cygdrive/c/Windows/System32/WindowsPowerShell/v1.0:/cygdrive/c/Windows/System32/OpenSSH:/cygdrive/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/cygdrive/c/Program Files (x86)/dotnet:/cygdrive/c/Program Files/PowerShell/7-preview/preview:/cygdrive/c/Program Files/Git/cmd:/cygdrive/c/Program Files (x86)/Turbo/Cmd:/cygdrive/e/vs/Common7/IDE:/cygdrive/c/Program Files/Java/jdk1.8.0_151/bin:/cygdrive/c/Program Files/dotnet:/usr/bin:/cygdrive/c/Program Files/Docker/Docker/resources/bin:/cygdrive/c/ProgramData/DockerDesktop/version-bin:/cygdrive/c/Program Files (x86)/NetSarang/Xshell 6:/cygdrive/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit:/cygdrive/c/Users/admin/AppData/Local/Programs/Fiddler:/cygdrive/c/Users/admin/.dotnet/tools:/cygdrive/c/Program Files/Java/jdk1.8.0_151/jre/bin:/cygdrive/e/Emscripten/emsdk:/cygdrive/e/Emscripten/emsdk/node/14.15.5_64bit/bin:/cygdrive/e/Emscripten/emsdk/upstream/emscripten:/cygdrive/c/Program Files (x86)/Yarn/bin:/cygdrive/e/Program Files (x86)/mongodb-win32-x86_64-windows-4.4.5/bin:/cygdrive/c/Users/admin/.cargo/bin:/cygdrive/c/WINDOWS/system32:/cygdrive/c/WINDOWS:/cygdrive/c/WINDOWS/System32/Wbem:/cygdrive/c/WINDOWS/System32/WindowsPowerShell/v1.0:/cygdrive/c/WINDOWS/System32/OpenSSH:/cygdrive/c/Users/admin/AppData/Local/Yarn/bin:/cygdrive/d/Program Files/glslang/bin:/cygdrive/c/Program Files (x86)/NetSarang/Xshell 7:/cygdrive/c/Program Files (x86)/NetSarang/Xftp 7:/cygdrive/c/raylib/mingw/bin:/cygdrive/c/Program Files/nodejs:/cygdrive/c/ProgramData/Oracle/Java/javapath:/cygdrive/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/cygdrive/c/Windows/system32:/cygdrive/c/Windows:/cygdrive/c/Windows/System32/Wbem:/cygdrive/c/Windows/System32/WindowsPowerShell/v1.0:/cygdrive/c/Windows/System32/OpenSSH:/cygdrive/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/cygdrive/c/Program Files (x86)/dotnet:/cygdrive/c/Program Files/PowerShell/7-preview/preview:/cygdrive/c/Program Files/Git/cmd:/cygdrive/c/Program Files (x86)/Turbo/Cmd:/cygdrive/e/vs/Common7/IDE:/cygdrive/c/Program Files/Java/jdk1.8.0_151/bin:/cygdrive/c/Program Files/dotnet:/usr/bin:/cygdrive/c/Program Files/Docker/Docker/resources/bin:/cygdrive/c/ProgramData/DockerDesktop/version-bin:/cygdrive/c/Program Files (x86)/NetSarang/Xshell 6:/cygdrive/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit:/cygdrive/c/Users/admin/AppData/Local/Programs/Fiddler:/cygdrive/c/Users/admin/.dotnet/tools:/cygdrive/c/Program Files/Java/jdk1.8.0_151/jre/bin:/cygdrive/e/Emscripten/emsdk:/cygdrive/e/Emscripten/emsdk/node/14.15.5_64bit/bin:/cygdrive/e/Emscripten/emsdk/upstream/emscripten:/cygdrive/c/Program Files (x86)/Yarn/bin:/cygdrive/e/Program Files (x86)/mongodb-win32-x86_64-windows-4.4.5/bin:/cygdrive/c/Users/admin/.cargo/bin:/cygdrive/c/WINDOWS/system32:/cygdrive/c/WINDOWS:/cygdrive/c/WINDOWS/System32/Wbem:/cygdrive/c/WINDOWS/System32/WindowsPowerShell/v1.0:/cygdrive/c/WINDOWS/System32/OpenSSH:/cygdrive/c/Users/admin/AppData/Local/Yarn/bin:/cygdrive/d/Program Files/glslang/bin:/cygdrive/c/Program Files (x86)/NetSarang/Xshell 7:/cygdrive/c/Program Files (x86)/NetSarang/Xftp 7:/cygdrive/c/Program Files (x86)/CMake/bin:/cygdrive/c/Program Files (:/cygdrive/c/Users/admin/AppData/Local/Programs/Microsoft VS Code/bin
+# environment
+ZES_ENABLE_SYSMAN = 1
+# environment
+COMPUTERNAME = PORTAL
+# environment
+EMSDK_NODE = E:\Emscripten\emsdk\node\14.15.5_64bit\bin\node.exe
+# default
+MAKEFILES := 
+# automatic
+^F = $(notdir $^)
+# environment
+PROMPT = $P$G
+# makefile (from 'Makefile', line 299)
+LDLIBS = -lraylib -lopengl32 -lgdi32 -lwinmm
+# environment
+AGSDESKTOPJAVA = E:\Program Files (x86)\desktop\Desktop10.8\
+# environment
+GDAL_DATA = C:\Program Files\PostgreSQL\12\gdal-data
+# environment
+LOGONSERVER = \\PORTAL
+# environment
+VSCODE_LOG_NATIVE = false
+# environment
+USERNAME = admin
+# environment
+COMMONPROGRAMFILES = C:\Program Files\Common Files
+# automatic
+?F = $(notdir $?)
+# environment
+PROGRAMW6432 = C:\Program Files
+# environment
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+# automatic
++F = $(notdir $+)
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+USERDOMAIN = PORTAL
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+VS140COMNTOOLS = C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\Tools\
+# environment
+OS = Windows_NT
+# environment
+VS2019 = E:\vs\Common7\IDE\devenv.exe
+# environment
+EMSDK = E:/Emscripten/emsdk
+# makefile
+.DEFAULT_GOAL := all
+# environment
+AGSDATASTORE = E:\Program Files (x86)\ad\DataStore\
+# default
+MAKE_VERSION := 4.3
+# environment
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# makefile (from 'Makefile', line 275)
+LDFLAGS = -L. -L$(RAYLIB_RELEASE_PATH) -L$(RAYLIB_PATH)/src
+# environment
+!D: = d:\interview\book\game
+# environment
+USERDOMAIN_ROAMINGPROFILE = PORTAL
+# environment
+NUMBER_OF_PROCESSORS = 12
+# environment
+PUBLIC = C:\Users\Public
+ 
+# makefile (from 'Makefile', line 145)
+EXAMPLE_RUNTIME_PATH = $(RAYLIB_RELEASE_PATH)
+# environment
+APPDATA = C:\Users\admin\AppData\Roaming
+# makefile (from 'Makefile', line 211)
+CFLAGS = -Wall -std=c99 -D_DEFAULT_SOURCE -Wno-missing-braces -s -O1 $(RAYLIB_PATH)/src/raylib.rc.data -Wl,--subsystem,windows
+# environment
+HOMEDRIVE = C:
+# environment
+PROCESSOR_ARCHITECTURE = AMD64
+# makefile (from 'Makefile', line 368)
+MAKEFILE_PARAMS = $(PROJECT_NAME)
+# makefile (from 'Makefile', line 64)
+USE_WAYLAND_DISPLAY = FALSE
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /home/admin
+# environment
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# makefile (from 'Makefile', line 56)
+BUILD_MODE = RELEASE
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+TEMP = /cygdrive/c/Users/admin/AppData/Local/Temp
+# environment
+VSCODE_IPC_HOOK = \\.\pipe\40c024692924a7e0e09c00bf44e8c2ef-1.65.2-main-sock
+# environment
+TERM = xterm-256color
+# environment
+POSTGIS_GDAL_ENABLED_DRIVERS = GTiff PNG JPEG GIF XYZ DTED USGSDEM AAIGrid
+# default
+.RECIPEPREFIX := 
+# automatic
+<F = $(notdir $<)
+# default
+SUFFIXES := 
+# environment
+ALLUSERSPROFILE = C:\ProgramData
+# makefile (from 'Makefile', line 53)
+RAYLIB_LIBTYPE = STATIC
+# environment
+SESSIONNAME = Console
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync check-symlink guile load
+# environment
+PROCESSOR_REVISION = 9e0d
+# makefile (from 'Makefile', line 149)
+CC = gcc
+# makefile (from 'Makefile', line 253)
+INCLUDE_PATHS = -I. -I$(RAYLIB_PATH)/src -I$(RAYLIB_PATH)/src/external
+# environment
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 158 Stepping 13, GenuineIntel
+# makefile (from 'Makefile', line 351)
+rwildcard = $(foreach d,$(wildcard $1*),$(call rwildcard,$d/,$2) $(filter $(subst *,%,$2),$d))
+# variable set hash-table stats:
+# Load=138/1024=13%, Rehash=0, Collisions=24/243=10%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# src (device 1710438242, inode 1125899908012687): No files, no impossibilities so far.
+# . (device 1710438242, inode 1688849861433956): 11 files, no impossibilities.
+
+# 11 files, no impossibilities in 2 directories.
+
+# Implicit Rules
+
+obj/%.o: src/%.c
+#  recipe to execute (from 'Makefile', line 384):
+	$(CC) -c $< -o $@ $(CFLAGS) $(INCLUDE_PATHS) -D$(PLATFORM)
+
+# 1 implicit rules, 0 (0.0%) terminal.
+# Files
+
+game: main.c
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 378):
+	$(CC) -o $(PROJECT_NAME)$(EXT) $(OBJS) $(CFLAGS) $(INCLUDE_PATHS) $(LDFLAGS) $(LDLIBS) -D$(PLATFORM)
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2021-11-02 18:37:26
+#  File has been updated.
+#  Successfully updated.
+
+clean:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 390):
+		del *.o *.exe /s
+	@echo Cleaning done
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+all:
+#  Phony target (prerequisite of .PHONY).
+#  Command line target.
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := all
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/14=14%
+#  recipe to execute (from 'Makefile', line 374):
+	$(MAKE) $(MAKEFILE_PARAMS)
+
+# Not a target:
+main.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.PHONY: all clean
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# files hash-table stats:
+# Load=8/1024=1%, Rehash=0, Collisions=0/25=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 20 / storage = 168 B / avg = 8 B
+# current buf: size = 8162 B / used = 168 B / count = 20 / avg = 8 B
+
+# strcache performance: lookups = 34 / hit rate = 41%
+# hash-table stats:
+# Load=20/8192=0%, Rehash=0, Collisions=0/34=0%
+# Finished Make data base on Fri Mar 18 16:08:05 2022
+
+ 
